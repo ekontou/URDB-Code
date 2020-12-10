@@ -4,7 +4,7 @@ This code was used to analyze 7,506 electricity rates applicable to direct curre
 Muratori, M., **Kontou, E.**, & Eichman, J. (2019). Electricity rates for electric vehicle direct current fast charging in the United States. Renewable and Sustainable Energy Reviews, 113, 109235. **[Link](https://doi.org/10.1016/j.rser.2019.06.042)**
 
 ### More information on the matlab code
-* DataURDB.mat includes all the variables required for this analysis such as energy and demand charges of electricity rates and their time of day and seasonal variations. Please note that in this analysis we only include rates that have energy and demand tariff structure and we exclude other tariffs with, for example, critical peak pricing, locational marginal pricing, and other tariff structures).
+* DataURDB.mat includes all the variables required for this analysis such as energy and demand charges of the electricity rates and their time of day and seasonal variations. Please note that in this analysis we only include rates that have energy and demand tariff structures and we exclude other tariffs with, for example, critical peak pricing, locational marginal pricing, and other tariff structures) for comparison purposes.
 * StackedBarGraphs.m is the main file that calls functions from the rest and simulates the utility billing process. It generates the RSER paper's graphs, portraying median costs of electricity under different electricity tariff schemes for various electric vehicle charging scenarios and specifications. 
 
 
