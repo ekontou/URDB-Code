@@ -5,6 +5,6 @@ Muratori, M., **Kontou, E.**, & Eichman, J. (2019). Electricity rates for electr
 
 ### More information on the matlab code
 * DataURDB.mat includes all the variables required for this analysis such as energy and demand charges of the electricity rates and their time of day and seasonal variations. Please note that in this analysis we only include rates that have energy and demand tariff structures and we exclude other tariffs with, for example, critical peak pricing, locational marginal pricing, and other tariff structures) for comparison purposes.
-* StackedBarGraphs.m is the main file that calls functions from the rest and simulates the utility billing process. It generates the RSER paper's graphs, portraying median costs of electricity under different electricity tariff schemes for various electric vehicle charging scenarios and specifications. 
+* StackedBarGraphs.m is the main file that calls the rest of the functions (seperate .m files) and simulates the annual utility billing process. It generates the RSER paper's graphs, portraying median costs of electricity under different electricity tariff schemes for various electric vehicle charging scenarios and specifications. 
 
 
